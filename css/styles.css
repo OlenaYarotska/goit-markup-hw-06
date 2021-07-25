@@ -496,7 +496,6 @@ img {
 .all-footer {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 .footer-address {
   margin-top: 20px;
@@ -585,11 +584,9 @@ img {
   justify-content: center;
 }
 .mailing {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* margin-left: 93px; */
 }
 .mailing-heading {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -600,8 +597,8 @@ img {
 }
 .mailing-form {
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.mailing-form-field {
 }
 .mailing-form-input {
   width: 358px;
@@ -629,8 +626,6 @@ img {
   border: none;
   cursor: pointer;
   display: inline-block;
-  text-align: center;
-  align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -639,13 +634,13 @@ img {
   color: var(--white-color);
   background-color: var(--accent-color);
   margin-left: 12px;
-  padding-top: 10px;
+
+  /* padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
-  padding-right: 28px;
+  padding-right: 28px; */
 }
 .footer-icon {
-  fill: var(--white-color);
   /* margin-left: 10px; */
 }
 
@@ -939,9 +934,9 @@ img {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  display: inline-block;
-  text-align: center;
-  align-self: center;
+  display: flex;
+  align-items: center;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;

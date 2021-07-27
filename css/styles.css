@@ -630,6 +630,7 @@ img {
   border: none;
   cursor: pointer;
   display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -911,9 +912,9 @@ img {
   background-image: url(../images/check-bold.svg);
   border-color: transparent;
   background-color: var(--accent-color);
-  background-origin: padding-box;
+  background-origin: border-box;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
 }
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
